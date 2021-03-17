@@ -70,7 +70,7 @@ Most of your code is built and distributed using the command line. A script trig
 - [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
 - [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
 - [Customize Your Shell & Command Prompt](http://blog.taylormcgann.com/tag/prompt-color/)
-- [Bash Academy](https://www.bash.academy/)
+- [Bash Academy](https://guide.bash.academy/)
 - [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [Bash Programming HOWTO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 
@@ -120,6 +120,7 @@ Supplemental tools for diagramming, wireframing and testing.
 - [Browserstack](https://www.browserstack.com/)
 - [Sauce Labs](https://saucelabs.com/)
 - [Percy.io](https://percy.io/)
+- [How to Set Up VS Code for Web Development in A Few Simple Steps](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/how-to-set-up-vs-code-for-web-development/amp/)
 
 ## Design - UI - UX
 
