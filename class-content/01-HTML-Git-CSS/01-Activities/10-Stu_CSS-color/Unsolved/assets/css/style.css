@@ -1,20 +1,27 @@
 .section {
-    width: 200px;
-    height: 100px;
-  }
-  
-.section-blue {
-
+  width: 200px;
+  height: 100px;
 }
-  
-.container {
 
+.section-blue {
+  background-color: blue;
+  color: orange;
+}
+
+.section-6 {
+  color: #fff700;
+}
+
+.container {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 #section-1 {
-
+  background-color: #6a2073;
+  color: #fff700;
 }
 
-#section-6 {
-
-}
+/* .container .section {
+  width: 300px;
+} */
