@@ -13,9 +13,3 @@
 1. Week 2 Activity 05: Responsive design
 1. Week 2 Activity 06: Comment this code
 1. Review Activity 06
-1. Week 2 Activity 07: flexbox placement
-1. Week 2 Activity 08: fix the product layout
-1. Review Activity 08
-1. Week 2 Activity 09: box styling with transforms
-1. Week 2 Activity 10: style these boxes
-1. Review Activity 10

@@ -20,3 +20,9 @@
 - [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
 
 ## Day 3
+
+- [What is wireframing?](https://www.experienceux.co.uk/faqs/what-is-wireframing/#:~:text=Wireframing%20is%20a%20way%20to,user%20needs%20and%20user%20journeys.)
+- [An Introduction to Wireframing with Figma](https://www.sitepoint.com/wireframing-figma/?utm_source=SitePoint&utm_medium=email&utm_campaign=SitePointWeekly&omhide=true)
+- [CSS Selectors - W3Schools](https://www.w3schools.com/css/css_selectors.asp)
+- [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+- [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
