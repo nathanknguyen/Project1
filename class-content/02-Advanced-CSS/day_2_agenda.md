@@ -15,12 +15,8 @@
 1. Week 2 Activity 14: style some text
 1. Review Activity 14
 1. Week 2 Activity 15: what are pseudo classes?
-1. Week 2 Activity 16: style some text
+1. Week 2 Activity 16: make some stuff appear and disappear with hover
 1. Review Activity 16
 1. Week 2 Activity 17: what are pseudo elements?
 1. Week 2 Activity 18: Let's create a tool tip
 1. Review Activity 18
-1. Week 2 Activity 19: Custom Forms
-1. Week 2 Activity 20: Comment the form element css
-1. Review Activity 20
-1. Homework 2: Portfolio Page 1
