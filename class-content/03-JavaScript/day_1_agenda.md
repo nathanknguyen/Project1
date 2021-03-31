@@ -1,6 +1,6 @@
 # Agenda
 
-1. Intro to Javascript
+1. Homework
 1. Slides: Javascript
 1. Look ahead: Rock Paper Scissors
 1. Week 3 Activity 01: where do we write javascript?
