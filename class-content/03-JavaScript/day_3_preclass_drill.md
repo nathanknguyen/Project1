@@ -1,16 +1,6 @@
 # PRE CLASS DRILL
 
 ```
-Write a function that takes in an array of numbers and outputs the maximum number.
-
-Ex:
-Input: [ 1, 2, 3 ]
-Output: 3
-
-Input: [ 3, 6, 4, 5, 2, 1 ]
-Output: 6
-
-Input: [ 3, 3, 3 ]
-Output: 3
+    What is a self-closing tag? Provide three examples. Why are these tags self-closing? What differentiates these elements from others?
 
 ```
