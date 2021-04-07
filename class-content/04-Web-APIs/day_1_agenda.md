@@ -1,5 +1,7 @@
 # Agenda
 
+1. `git pull`
+1. Homework - submit early and often
 1. Week 3 Activity 28: Rock Paper Scissors
 1. Review Week 3 Activity 28
 1. Week 4: Intro to Web API's
