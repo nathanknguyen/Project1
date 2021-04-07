@@ -10,7 +10,13 @@
 - [querySelector](https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/)
 - [JavaScript DOM Get Set Attributes](https://www.tutorialrepublic.com/javascript-tutorial/javascript-dom-get-set-attributes.php)
 - [How to Add an Element to the DOM?](https://areknawo.com/how-to-add-an-element-to-dom/)
+
+## Day 2
+
 - [How to set a timer in JavaScript](https://www.educative.io/edpresso/how-to-set-a-timer-in-javascript)
+- [JavaScript Event Handlers – How to Handle Events in JS](https://www.freecodecamp.org/news/javascript-event-handlers/)
+- [Introduction to JavaScript keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
+- [A Complete Guide to Data Attributes](https://css-tricks.com/a-complete-guide-to-data-attributes/)
 
 ## Extra
 
