@@ -17,6 +17,13 @@
 - [JavaScript Event Handlers – How to Handle Events in JS](https://www.freecodecamp.org/news/javascript-event-handlers/)
 - [Introduction to JavaScript keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
 - [A Complete Guide to Data Attributes](https://css-tricks.com/a-complete-guide-to-data-attributes/)
+- [What Is Event Bubbling in JavaScript? Event Propagation Explained](https://www.sitepoint.com/event-bubbling-javascript/)
+
+## Day 3
+
+- [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
+- [Storing Objects in HTML5 localStorage](https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage)
+- [About pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 ## Extra
 
