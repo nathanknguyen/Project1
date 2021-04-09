@@ -15,5 +15,3 @@
 1. Week 4 Activity 6: change style attribute
 1. Review Week 4 Activity 6
 1. Week 4 Activity 7: create and append elements
-1. Week 4 Activity 8: append and style some elements
-1. Review Week 4 Activity 8
