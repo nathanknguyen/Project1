@@ -14,3 +14,17 @@ Input: [ 3, 3, 3 ]
 Output: 3
 
 ```
+
+```javascript
+function findMax(arr) {
+  var maxNum = arr[0];
+
+  for (var i = 1; i < arr.length; i++) {
+    if (arr[i] > maxNum) {
+      maxNum = arr[i];
+    }
+  }
+
+  return maxNum;
+}
+```
