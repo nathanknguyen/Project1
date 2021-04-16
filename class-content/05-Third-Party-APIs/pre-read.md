@@ -14,3 +14,9 @@
 - [A Beginner’s Guide to CSS Front End Frameworks](https://blog.zipboard.co/a-beginners-guide-to-css-front-end-frameworks-8045a499456b)
 - [What is Bootstrap: A Beginner's Guide](https://careerfoundry.com/en/blog/web-development/what-is-bootstrap-a-beginners-guide/)
 - [Build fast, responsive sites with Bootstrap](https://getbootstrap.com/)
+
+## Day 3
+
+- [Google Fonts](https://fonts.google.com/)
+- [jQueryUI](https://jqueryui.com/)
+- [MomentJS](https://momentjs.com/)
