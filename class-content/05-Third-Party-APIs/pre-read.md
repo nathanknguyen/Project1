@@ -20,3 +20,4 @@
 - [Google Fonts](https://fonts.google.com/)
 - [jQueryUI](https://jqueryui.com/)
 - [MomentJS](https://momentjs.com/)
+- [You don't (may not) need Moment.js](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
