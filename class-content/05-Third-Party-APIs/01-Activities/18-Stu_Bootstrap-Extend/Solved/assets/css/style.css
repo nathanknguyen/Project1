@@ -6,19 +6,6 @@
   --light: #fffaf7;
 }
 
-body {
-  font-family: "Merriweather", serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Antonio", sans-serif;
-}
-
 ::selection {
   color: var(--brown);
   background-color: var(--light);

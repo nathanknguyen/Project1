@@ -6,8 +6,15 @@
   --light: #fffaf7;
 }
 
+::selection {
+  color: var(--brown);
+  background-color: var(--light);
+}
+
 body {
-  font-family: "Merriweather", serif;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 h1,
@@ -16,12 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Antonio", sans-serif;
-}
-
-::selection {
-  color: var(--brown);
-  background-color: var(--light);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
 }
 
 .custom-navbar {
