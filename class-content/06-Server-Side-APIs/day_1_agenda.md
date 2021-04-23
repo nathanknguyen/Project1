@@ -14,6 +14,3 @@
 1. Week 6 Activity 5: More ways to fetch - `XMLHttpRequest` and `$.ajax`
 1. Week 6 Activity 6: Add comments to describe `$.ajax`, `fetch` and `XMLHttpRequest`
 1. Review Week 6 Activity 6
-1. Week 6 Activity 7: parsing `response.json()`
-1. Week 6 Activity 8: fetch and log issues from Twitter's Chill repo
-1. Review Week 6 Activity 8
