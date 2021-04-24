@@ -20,6 +20,3 @@
 1. Week 6 Activity 17: What are `fetch` options?
 1. Week 6 Activity 18: Set the `cache` option
 1. Review Week 6 Activity 18
-1. Week 6 Activity 19: `document.location`
-1. Week 6 Activity 20: use `document.location` to redirect to a 404 page
-1. Review Week 6 Activity 20

@@ -4,6 +4,19 @@ In this activity, we will walk through how to set up GitHub repositories for a c
 
 > **Important:** Because this is a group-based application, only one person in the group needs to make the repository. That person will invite the other developers to join the repo as a collaborator once they have everything set up.
 
+## What is the Gitflow Workflow?
+
+This activity and the next activity are based on the concept of **Gitflow Workflow**. Gitflow is a workflow strategy for using `git` in a team. Gitflow provides the following advantages:
+
+1. Allows for team members to work in parallel
+   - Provides team and individual "sandboxes" where team members can write code without fear of breaking things
+   - Fewer merge conflicts
+1. Structures releases to encourage more predictable deployments
+1. Protects the code that deploys to production
+1. Encourages code reviews whereby the team reviews code quality before deployment
+
+Please refer to [this page](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for more information.
+
 ## Instructions
 
 ### Create the Repository and Set Up .gitignore File
@@ -83,6 +96,30 @@ GitHub allows developers to work together and contribute to a single repository 
 * This will only handle one collaborator, so repeat this process for every collaborator on the project.
 
 * Once all of the collaborators have accepted the invite, it's time to get coding! 
+
+### Create a `develop` branch
+
+Now that we have a repo, a team and a protected `main` branch we are ready to code right? Well...not so fast. We need a `develop` branch. The `develop` branch serves as a kind of sandbox that allows the team to integrate each other's changes before deploying through the `main` branch. Having a sandbox like this acknowledges that a code base begins unstable and needs to be reviewed, tested and fixed to get it stable before deployment.
+
+* Create a `develop` branch on your local repo
+
+```bash
+git checkout -b develop
+```
+
+You are now in the `develop` branch on your local machine, but it doesn't yet exist at your github repo.
+
+* Push develop to your github repo
+
+If you tried to type `git push` git would tell you this branch has no upstream branch. This means the branch doesn't exist on github. So the first time you push a branch that doesn't yet exist on github you need to use the `set-upstream` setting:
+
+```
+git push --set-upstream origin develop
+```
+
+This tells git to set the upstream version of your `develop` branch to a branch called `develop` on the `origin` remote.
+
+* Now you are ready to start collaborating with your team
 
 ### Hints
 

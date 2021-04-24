@@ -19,3 +19,4 @@
 
 - [About the loc.gov JSON API](https://libraryofcongress.github.io/data-exploration/)
 - [About github pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#:~:text=Pull%20requests%20let%20you%20tell,merged%20into%20the%20base%20branch.)
+- [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
