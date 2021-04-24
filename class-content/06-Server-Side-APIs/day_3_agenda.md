@@ -12,3 +12,5 @@
 1. Review Week 6 Activity 24
 1. Week 6 Activity 25: Create and protect a Github project
 1. Week 6 Activity 26: How to do Gitflow: `develop` and feature branches
+1. Week 6 Activity 27: Mini-Project - Library of Congress
+1. Homework 6: Weather Dashboard
