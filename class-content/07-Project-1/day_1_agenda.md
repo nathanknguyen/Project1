@@ -1,5 +1,6 @@
 # Agenda
 
+1. Introduce Ming and Frantz!
 1. `git pull`
 1. Week 7: Intro to Projects
 1. Slides - Projects
