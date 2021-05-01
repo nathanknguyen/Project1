@@ -1,0 +1,35 @@
+
+/* Background image projector behind map and list */
+  #bgLeft {
+
+    opacity: .75;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+
+    left: 0;
+    position: absolute;
+  }
+
+
+  /*Background image restaraunt behind map and list*/
+  #bgRight {
+
+    opacity: .75;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+
+    right: 0;
+    position: absolute;
+  }
