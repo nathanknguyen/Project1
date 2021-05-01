@@ -1,0 +1,27 @@
+input {
+  position: relative;
+  width: 300px;
+  border: inset;
+  margin: 20px 18rem;
+  padding: 10px;
+  border-color: blue;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+i {
+  font-size: 50px;
+  margin: 15px;
+  color: cornflowerblue;
+}
+
+#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
