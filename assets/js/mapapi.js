@@ -29,6 +29,10 @@ function getLocation() {
           lng: position.coords.longitude,
       };
       updateMap(pos, 12);
+      var marker = new google.maps.Marker({
+        position: pos,
+        map: map,
+      });
      // map.setCenter (pos);
     // x.innerHTML = "Latitude: " + position.coords.latitude +
     // "<br>Longitude: " + position.coords.longitude;
