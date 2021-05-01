@@ -19,14 +19,12 @@ body {
   float: left;
   width: 40%;
   padding: 20px;
-  background-color: white;
 }
 
 .columnSecond {
   float: left;
   width: 60%;
   padding: 20px;
-  background-color: white;
 }
 
 
@@ -34,7 +32,7 @@ body {
 #bgLeft {
 
   opacity: .75;
-  width: 50%;
+  width: 40%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
 
@@ -52,7 +50,7 @@ body {
 #bgRight {
 
   opacity: .75;
-  width: 50%;
+  width: 60%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
 
