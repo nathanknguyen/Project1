@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-<div id="map">
-</div>
-<script src="./assets/js/mapapi.js"></script>
-<script id="map" async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap">
-
-</script>
-</body>
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <i class="fas fa-utensils"></i>
+      <input
+        style="text-align: center"
+        type="text"
+        placeholder="Zip Code"
+        name="zipcode"
+        required
+      />
+    </div>
+    <div id="map"></div>
+    <script src="./assets/js/mapapi.js"></script>
+    <script
+      id="map"
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap"
+    ></script>
+    <script
+    src="https://kit.fontawesome.com/0dcb1cbe86.js"
+    crossorigin="anonymous"
+  ></script>
+  </body>
 </html>
