@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
-  
+  background-image: url(https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 /* Style the header */
@@ -15,27 +17,15 @@ body {
 }
 
 
-/* Create two columns */
-.columnFirst {
-  float: left;
-  width: 40%;
-  padding: 20px;
-  background-color: white;
-}
-
-.columnSecond {
-  float: left;
-  width: 60%;
-  padding: 20px;
-  background-color: white;
-}
-
+h1 {
+  text-align: left;
+} 
 
 /* Background image projector behind map and list */
-#bgLeft {
+/* #bgLeft {
 
   opacity: .75;
-  width: 50%;
+  width: 40%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
 
@@ -46,14 +36,14 @@ body {
 
   left: 0;
   position: absolute;
-}
+} */
 
 
 /*Background image restaraunt behind map and list*/
-#bgRight {
+/* #bgRight {
 
   opacity: .75;
-  width: 50%;
+  width: 60%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
 
@@ -64,7 +54,7 @@ body {
 
   right: 0;
   position: absolute;
-} 
+}  */
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
@@ -81,7 +71,7 @@ input {
   position: relative;
   width: 300px;
   border: inset;
-  margin: 20px 18rem;
+  margin: 20px 28rem;
   padding: 10px;
   border-color: blue;
   font-size: 20px;
@@ -89,13 +79,14 @@ input {
 }
 
 i {
-  font-size: 50px;
+  font-size: 60px;
   margin: 15px;
   color: cornflowerblue;
 }
 
 #map {
   height: 100%;
+  width: 60%;
 }
 
 html,
