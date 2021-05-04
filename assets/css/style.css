@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  background-image: url(https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg);
+  /* background-image: url(https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll; */
 }
 
 /* Style the header */
@@ -17,11 +17,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-h1 {
-  text-align: left;
-} 
-=======
 /* Create two columns */
 .columnFirst {
   float: left;
@@ -35,7 +30,6 @@ h1 {
   padding: 20px;
 }
 
->>>>>>> main
 
 /* Background image projector behind map and list */
 /* #bgLeft {
@@ -101,8 +95,8 @@ i {
 }
 
 #map {
-  height: 100%;
-  width: 60%;
+  /* height: 100%;
+  width: 60%; */
 }
 
 html,
