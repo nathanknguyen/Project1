@@ -17,9 +17,25 @@ body {
 }
 
 
+<<<<<<< HEAD
 h1 {
   text-align: left;
 } 
+=======
+/* Create two columns */
+.columnFirst {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.columnSecond {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+
+>>>>>>> main
 
 /* Background image projector behind map and list */
 /* #bgLeft {
