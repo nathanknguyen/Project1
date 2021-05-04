@@ -1,104 +1,103 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Create two columns */
+.columnFirst {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.columnSecond {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+
+
+/* Background image projector behind map and list */
+#bgLeft {
+
+  opacity: .75;
+  width: 40%;
+  height: 75%;
+  background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+
+  left: 0;
+  position: absolute;
+}
+
+
+/*Background image restaraunt behind map and list*/
+#bgRight {
+
+  opacity: .75;
+  width: 60%;
+  height: 75%;
+  background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+
+  right: 0;
+  position: absolute;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
   }
-  
-  body {
-    margin: 0;
-  }
-  
-  /* Style the header /
-  .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  
-  / Create two columns /
-  .columnFirst {
-    float: left;
-    width: 40%;
-    padding: 20px;
-  }
-  
-  .columnSecond {
-    float: left;
-    width: 60%;
-    padding: 20px;
-  }
-  
-  
-  / Background image projector behind map and list /
-  #bgLeft {
-  
-    opacity: .75;
-    width: 40%;
-    height: 75%;
-    background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg%27) no-repeat;
-  
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-  
-    left: 0;
-    position: absolute;
-  }
-  
-  
-  /Background image restaraunt behind map and list/
-  #bgRight {
-  
-    opacity: .75;
-    width: 60%;
-    height: 75%;
-    background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg%27) no-repeat;
-  
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-  
-    right: 0;
-    position: absolute;
-  }
-  
-  / Responsive layout - makes the three columns stack on top of each other instead of next to each other /
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
-  
-  
-  
-  /Start of main */
-  input {
-    position: relative;
-    width: 300px;
-    border: inset;
-    margin: 20px 18rem;
-    padding: 10px;
-    border-color: blue;
-    font-size: 20px;
-    color: blueviolet;
-  }
-  
-  i {
-    font-size: 50px;
-    margin: 15px;
-    color: cornflowerblue;
-  }
-  
-  #map {
-    height: 100%;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
+}
+
+
+
+
+/*Start of main */
+input {
+  position: relative;
+  width: 300px;
+  border: inset;
+  margin: 20px 18rem;
+  padding: 10px;
+  border-color: blue;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+i {
+  font-size: 50px;
+  margin: 15px;
+  color: cornflowerblue;
+}
+
+#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
