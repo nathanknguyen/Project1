@@ -19,19 +19,7 @@ body {
   float: left;
   width: 40%;
   padding: 20px;
-}
 
-.columnSecond {
-  float: left;
-  width: 60%;
-  padding: 20px;
-}
-
-
-/* Background image projector behind map and list */
-#bgLeft {
-
-  opacity: .75;
   width: 40%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
@@ -45,11 +33,11 @@ body {
   position: absolute;
 }
 
+.columnSecond {
+  float: left;
+  width: 60%;
+  padding: 20px;
 
-/*Background image restaraunt behind map and list*/
-#bgRight {
-
-  opacity: .75;
   width: 60%;
   height: 75%;
   background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
@@ -63,9 +51,48 @@ body {
   position: absolute;
 }
 
+
+/* Background image projector behind map and list */
+/* #bgLeft {
+
+  opacity: .75;
+  width: 40%;
+  height: 75%;
+  background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+
+  left: 0;
+  position: absolute;
+} */
+
+
+/*Background image restaraunt behind map and list*/
+/* #bgRight {
+
+  opacity: .75;
+  width: 60%;
+  height: 75%;
+  background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+
+  right: 0;
+  position: absolute;
+} */
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-  .column {
+  .columnFirst {
+    width: 100%;
+  }
+  .columnSecond {
     width: 100%;
   }
 }
