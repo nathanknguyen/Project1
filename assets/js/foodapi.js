@@ -12,7 +12,7 @@ fetch('https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/98188',{
   .then(function(data){
     console.log(data.result.data)
     var restaurants = data.result.data
-    for (var i = 0; i < restaurants.length; i++) {
+    for (var i = 0; i < restaurants.length; i++) { 
     
       var restaurant = document.getElementById('restaurant');
       var restaurantName = document.createElement('p');
