@@ -10,57 +10,35 @@
   </head>
   <body>
 
-<!-- /*Start of Testing*/ -->
+
 <div class="header">
-  <h1>Dine N Flick</h1>
-  <p>    <div>
-    <a href="./index.html"> <i class="fas fa-utensils"></i></a>
-    <input
-      style="text-align: center"
-      type="text"
-      placeholder="Zip Code"
-      name="zipcode"
-      required
-    />
-  </div></p>
+        <h1>Dine N Flick <a href="./index.html"> <i class="fas fa-utensils"></i></a></h1>
+        <div>
+          
+          <input style="text-align: center" type="text" placeholder="Zip Code" name="zipcode" required/>
+        </div>
 </div>
 
+<div class="row">
 
-<!-- <div id="container">
-  <img src="https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg"  id="bgLeft"  />
-  <img src="https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg"  id="bgRight"  /> -->
-
-  <div class="row">
-
-    <div class="columnFirst" id="bgLeft">
-      <p class="menu">
-        <h2>List</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-
+    <div class="left">
+        <div class="leftColContent">
+            <h1>This column is where the results list will appear. </h1>
+        </div>
     </div>
-    
-    <div class="columnSecond" id="bgRight">
-      <p class="menu">
-        <div id="map"></div>
-        <script src="./assets/js/mapapi.js"></script>
-        <script
-          id="map"
-          async
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap"
-        ></script></p>
 
-    </div>
-    
+    <div class="right">
+        <div id="map">
+            <script src="./assets/js/mapapi.js"></script>
+            <script
+            id="map"
+            async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap"
+            ></script></div>
+    </div> 
+</div>   
 
-</div>
-<!-- </div> -->
-<!-- /*End of Testing*/ -->
-
-  
-
-    <script
-    src="https://kit.fontawesome.com/0dcb1cbe86.js"
-    crossorigin="anonymous"
-  ></script>
+<script src="https://kit.fontawesome.com/0dcb1cbe86.js"
+    crossorigin="anonymous"></script>
   </body>
 </html>
