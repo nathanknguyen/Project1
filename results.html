@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <h1>Dine "N" Flick</h1>
     <div>
+      
       <a href="./index.html"> <i class="fas fa-utensils"></i></a>
       <input
         style="text-align: center"
         type="text"
         placeholder="Zip Code"
-        name="zipcode"
-        required
-      />
+        name="zipcode" 
+        required>
+        <button> search </button>
+    </input>
     </div>
     <div id="map"></div>
     <script src="./assets/js/mapapi.js"></script>
@@ -25,7 +28,9 @@
       id="map"
       async
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap"
+     
     ></script>
+    <script scr="https://public.opendatasoft.com/api/records/1.0/search/?dataset=us-zip-code-latitude-and-longitude&q=&facet=state&facet=timezone&facet=dst" ></script>
     <script
     src="https://kit.fontawesome.com/0dcb1cbe86.js"
     crossorigin="anonymous"
