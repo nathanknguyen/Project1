@@ -1,130 +1,104 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-}
+    font-family: Arial;
+    color: black;
+    margin: 0px;
+ }
 
-/* Style the header */
+
 .header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
-
-
-/* Create two columns */
-.columnFirst {
-  float: left;
-  width: 40%;
-  padding: 20px;
-
-  width: 40%;
-  height: 75%;
-  background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: cover;
-
-  left: 0;
-  position: absolute;
-}
-
-.columnSecond {
-  float: left;
-  width: 60%;
-  padding: 20px;
-
-  width: 60%;
-  height: 75%;
-  background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
-
-  right: 0;
-  position: absolute;
-}
-
-
-/* Background image projector behind map and list */
-/* #bgLeft {
-
-  opacity: .75;
-  width: 40%;
-  height: 75%;
-  background-image: url('https://image.shutterstock.com/z/stock-photo-photo-of-an-old-movie-projector-92369293.jpg') no-repeat;
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: cover;
-
-  left: 0;
-  position: absolute;
-} */
-
-
-/*Background image restaraunt behind map and list*/
-/* #bgRight {
-
-  opacity: .75;
-  width: 60%;
-  height: 75%;
-  background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg') no-repeat;
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
-
-  right: 0;
-  position: absolute;
-} */
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .columnFirst {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-  }
-  .columnSecond {
-    width: 100%;
-  }
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 
+ .left {
+    height: 600px;
+    width: 40%;
+    position: relative;
+    overflow-x: hidden;
+
+ }
 
 
-/*Start of main */
+ .left::before {    
+    content: "";
+    background-image: url('../images/shutterstock_92369293.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+
+}
+
+.leftColContent {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+ .right {
+    height: 600px;
+    width: 60%;
+    position: relative;
+    overflow-x: hidden;
+
+    background-image: url('https://image.shutterstock.com/z/stock-photo-blur-coffee-shop-or-cafe-restaurant-with-abstract-bokeh-light-image-background-for-montage-product-364151948.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ #map {
+    height: 100%;
+  }
+
+
+
+
+ @media screen and (max-width:600px) {
+    .header {
+      width: 100%;
+     }
+     .row {
+         width: 100%;
+     }
+    .left {
+      width: 100%;
+
+    }
+    .right {
+        width: 100%;
+      }
+    }
+
+ /*Start of main */
 input {
-  position: relative;
-  width: 300px;
-  border: inset;
-  margin: 20px 18rem;
-  padding: 10px;
-  border-color: blue;
-  font-size: 20px;
-  color: blueviolet;
-}
+    position: relative;
+    border: inset;
+    padding: 10px;
+    border-color: blue;
+    font-size: 20px;
+    color: blueviolet;
+  }
+  
+  i {
+    font-size: 50px;
+    margin: 15px;
+    color: cornflowerblue;
+  }
+  
 
-i {
-  font-size: 50px;
-  margin: 15px;
-  color: cornflowerblue;
-}
-
-#map {
-  height: 100%;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
