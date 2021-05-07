@@ -1,4 +1,6 @@
-fetch('https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/11211',{
+function fetchRestaurants(zipcode, doStuffWithRestaurantsCallback) {
+  console.log(`fetching restraunts near zipcode: ${zipcode}`);
+fetch(`https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/${zipcode}`,{
     headers: {
         'Content-Type': 'application/json',
         "x-rapidapi-key": "73c4b148d4mshd043ad4720d8a11p1cc295jsn4cdf4a37dc05",
@@ -29,6 +31,7 @@ fetch('https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/11211',{
     // issueContainer.append(userName);
     // issueContainer.append(issueTitle);
   }  
+    doStuffWithRestaurantsCallback(restaurants);
   });
 
 
@@ -40,4 +43,4 @@ fetch('https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/11211',{
     //     return data = document.getElementById ('');
     // };
 
-    
+}
