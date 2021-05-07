@@ -14,8 +14,18 @@
 <div class="header">
         <h1>Dine N Flick <a href="./index.html"> <i class="fas fa-utensils"></i></a></h1>
         <div>
-          
-          <input style="text-align: center" type="text" placeholder="Zip Code" name="zipcode" required/>
+         
+          <input
+        style="text-align: center"
+        type="text"
+        placeholder="Please enter City, State, or Zipcode"
+        name="zipcode"
+        required
+        id = "zipcode-input"
+        maxlength=""
+        
+      />
+      <button id="zipcode-btn">click me</button>
         </div>
 </div>
 
@@ -40,5 +50,6 @@
 <script src = "./assets/js/movieapi.js"></script>
 <script src="https://kit.fontawesome.com/0dcb1cbe86.js"
     crossorigin="anonymous"></script>
+    <script src="assets/js/foodapi.js"></script>
   </body>
 </html>
