@@ -10,9 +10,9 @@ fetch(`https://api.internationalshowtimes.com/v4/cinemas/?location=${coords.coor
 .then(response => response.json())
 	.then(data => {
     for (var i = 0; i < data.cinemas.length; i++) {
-      console.log(data.cinemas[i].location.lon)
-      console.log(data.cinemas[i].location.lat)
-      console.log(data.cinemas[i].name)
+      // console.log(data.cinemas[i].location.lon)
+      // console.log(data.cinemas[i].location.lat)
+      // console.log(data.cinemas[i].name)
       
       const theater = data.cinemas[i];
       const marker = addMarker(theater.location.lat, theater.location.lon);

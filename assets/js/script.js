@@ -1,14 +1,14 @@
-const zipInput = document.querySelector('.zipinput');
+//const zipInput = document.querySelector('.zipinput');
 
-zipInput.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-      console.log('I hit enter');
-      console.log(zipInput.value);
-      const zipCode = zipInput.value;
+// zipInput.addEventListener('keypress', function (e) {
+//     if (e.key === 'Enter') {
+//       console.log('I hit enter');
+//       console.log(zipInput.value);
+//       const zipCode = zipInput.value;
 
-//       fetchRestaurants(zipCode, doStuffWithRestaurants);
-    }
-});
+// //       fetchRestaurants(zipCode, doStuffWithRestaurants);
+//     }
+// });
 
 // function doStuffWithRestaurants(restaurants) {
 //     console.log('insdie script.js')
