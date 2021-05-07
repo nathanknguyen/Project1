@@ -29,7 +29,7 @@ fetch(`https://api.internationalshowtimes.com/v4/cinemas/?location=${coords.coor
 	.catch(err => console.error(err));
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector("#zipcode-btn").addEventListener("click", function(event){
-    theaterSearch(coords);
-  })})
+// document.addEventListener("DOMContentLoaded", function() {
+//   document.querySelector("#zipcode-btn").addEventListener("click", function(event){
+//     theaterSearch(coords);
+//   })})
