@@ -18,16 +18,18 @@ function initMap() {
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(centerPosition);
+        console.log(navigator.geolocation.getCurrentPosition);
+        navigator.geolocation.getCurrentPosition(theaterSearch);
     } else {
         console.log("failed");
         //     x.innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
-function centerPosition(lat, lon) {
+function centerPosition(coordinates) {
     var pos = {
-        lat: lat,
-        lng: lon,
+        lat: coordinates.coords.latitude,
+        lng: coordinates.coords.longitude,
     };
     updateMap(pos, 14);
     var marker = new google.maps.Marker({
@@ -37,8 +39,8 @@ function centerPosition(lat, lon) {
     // map.setCenter (pos);
     // x.innerHTML = "Latitude: " + position.coords.latitude +
     // "<br>Longitude: " + position.coords.longitude;
-    console.log("Latitude", lat);
-    console.log("Longitude", lon);
+    // console.log("Latitude", lat);
+    // console.log("Longitude", lon);
 }
 
 function addMarker(lat, lon) {
