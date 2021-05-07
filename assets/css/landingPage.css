@@ -15,7 +15,7 @@
   }
 
   #showcase {
-      background-image:url('../images/isometric-flat-3d-concept-vector-600w-529837921.jpg');
+      background-image:url('../images/city-horizon.jpg');
       background-size:cover;
       background-position: center;
       height:100vh;
@@ -24,35 +24,53 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 0 20px;
+      padding: 0 50px;
   }
 
   #showcase h1{
       font-size: 50px;
-      line-height: 1.2;
-      padding:10px 52px;
+      color:white;
+      line-height: 1;
+      padding:20px 70px;
       margin-top:20px;
-      background-color:black;
+      position: absolute; top: 0;
+     
       
   }
 
   #showcase p{
       font-size: 20px;
+      padding:20px 70px;
+      margin-top:20px;
+      color: white;
+      position: absolute;
+      top: 12%;
+      width: 50%;
   }
 
   #showcase .button{
       font-size: 18px;
       text-decoration: none;
-      color:aqua;
-      border:aqua 1px solid;
+      color:black;
+      border:black 1px solid;
       padding:10px 20px;
       border-radius:10px;
       margin-top:20px;
-      background-color:black;
+      background-color: white;
+      position: absolute;
+      top: 30%;
+    
   }
 
   #showcase .button:hover {
-      background:darkgray;
+      background:yellow;
       color: black;
       
+  }
+
+  #section-a {
+      padding:20px;
+      background: darkblue;
+      color: #fff;
+      text-align:center;
   }
