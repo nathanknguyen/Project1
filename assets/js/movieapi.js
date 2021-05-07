@@ -5,6 +5,7 @@ function theaterInfoHtml(theater) {
       </div>
   `
 }
+
 function theaterSearch(coords) {
 fetch(`https://api.internationalshowtimes.com/v4/cinemas/?location=${coords.coords.latitude},${coords.coords.longitude}&distance=100&apikey=5ambsfw2ewzFfiYpWQPQct4zgOv3khs8`)
 .then(response => response.json())
@@ -28,3 +29,7 @@ fetch(`https://api.internationalshowtimes.com/v4/cinemas/?location=${coords.coor
 	.catch(err => console.error(err));
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector("#zipcode-btn").addEventListener("click", function(event){
+    theaterSearch(coords);
+  })})
