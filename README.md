@@ -30,8 +30,7 @@ Then I am presented with all reviews of the theater or restaurant.
 
 ## Demo (pics) 
 
-
-
+<img src="city-horizon.jpg">
 
 
 

@@ -7,3 +7,5 @@ $( ".inner-switch" ).on("click", function() {
       $( ".inner-switch" ).text( "ON" );
     }
 });
+
+console.log("Hello World");
