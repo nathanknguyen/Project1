@@ -69,6 +69,10 @@ body {
   }
 
 
+.pretty {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 
  @media screen and (max-width:600px) {

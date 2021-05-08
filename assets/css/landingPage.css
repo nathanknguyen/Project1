@@ -26,7 +26,8 @@
       text-align: center;
       padding: 0 50px;
   }
-
+ 
+  
   #showcase h1{
       font-size: 50px;
       color:white;
@@ -70,7 +71,38 @@
 
   #section-a {
       padding:20px;
-      background: darkblue;
+      background: darkgoldenrod;
       color: #fff;
       text-align:center;
   }
+
+@media only screen and (max-width: 600px) {
+    #showcase h1 {
+    
+    font-size: 40px;
+    color: #fff;
+
+}
+#showcase .button{
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    border:black 1px solid;
+    padding: 10px 15px;
+    border-radius:5px;
+    margin-top:15px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+
+}
+#showcase p{
+    font-size: 15px;
+    padding:20px 70px;
+    margin-top:20px;
+    color: white;
+    position: absolute;
+    top: 12%;
+    width: 50%;
+}
+}
