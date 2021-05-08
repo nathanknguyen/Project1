@@ -1,24 +1,24 @@
 ## Title
-DINE & FLICK
+DINE N' CHUG (formerly DINE N' FLICK)
 
 ## Description: 
-For people that want to have a good meal before or after watching a movie, using their zip code and with the help of google maps they can find theaters around that area.
+For people that want to have a good drink before or after watching a movie, using their zip code and with the help of google maps they can find theaters around that area.
 
 ## User Story
 
 AS a user 
-I WANT TO find a restaurant and theater using my zip code.
-SO THAT  i can find a restaurant to eat at then watch a movie afterwards or vice versa.
+I WANT TO find a breweries and theater using my zip code.
+SO THAT  i can find a brewery to drink at then watch a movie afterwards or vice versa.
 
-IT IS DONE when i open the page.
-THEN it shows me on a map the nearest theaters/restaurants  to me.
-THEN i select my choices and give an address to them.
+IT IS DONE when I open the page.
+THEN it shows me on a map the nearest theaters/breweries  to me.
+THEN I select my choices and give an address to them.
 
 ## Acceptance Criteria 
 
 Given 
 
-When I input nearest restaurant and theater near me
+When I input nearest breweries and theater near me
 
 Then I am presented with the nearest location of the theater or restaurant
 
