@@ -11,6 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-image: url("../images/beers.jpg");
+    -moz-box-shadow: inset 10px 10px 50px #fff;
+    -webkit-box-shadow: inset 10px 10px 50px #fff;
+    box-shadow: inset 10px 10px 50px #fff;
+    color: white;
 }
 
 .row {
@@ -90,7 +95,7 @@ input {
     position: relative;
     border: inset;
     padding: 10px;
-    border-color: blue;
+    border-color: darkblue #1e72ec darkblue #1e72ec;
     font-size: 20px;
     color: blueviolet;
   }
@@ -98,7 +103,13 @@ input {
   i {
     font-size: 50px;
     margin: 15px;
-    color: cornflowerblue;
+    color: #1e72ec;
   }
   
+  #section-a {
+    padding:45px;
+    background: darkblue;
+    color: #fff;
+    text-align:center;
 
+}
