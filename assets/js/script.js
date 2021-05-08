@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $( ".inner-switch" ).on("click", function() {
     if( $( "body" ).hasClass( "dark" )) {
       $( "body" ).removeClass( "dark" );
@@ -8,7 +7,6 @@ $( ".inner-switch" ).on("click", function() {
       $( ".inner-switch" ).text( "ON" );
     }
 });
-=======
 //const zipInput = document.querySelector('.zipinput');
 
 // zipInput.addEventListener('keypress', function (e) {
@@ -42,4 +40,3 @@ $( ".inner-switch" ).on("click", function() {
 // }
 
 
->>>>>>> 9ec20ca68824747f6f6407ef175f52729af7ab26
