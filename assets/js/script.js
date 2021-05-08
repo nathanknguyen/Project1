@@ -7,10 +7,6 @@ $( ".inner-switch" ).on("click", function() {
       $( ".inner-switch" ).text( "ON" );
     }
 });
-<<<<<<< HEAD
-
-console.log("Hello World");
-=======
 //const zipInput = document.querySelector('.zipinput');
 
 // zipInput.addEventListener('keypress', function (e) {
@@ -44,4 +40,3 @@ console.log("Hello World");
 // }
 
 
->>>>>>> main
