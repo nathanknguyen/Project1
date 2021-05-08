@@ -8,7 +8,13 @@
     <title>DINE 'N' FLICK</title>
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+<<<<<<< HEAD
 
+=======
+    <script src = "./assets/js/movieapi.js"></script>
+    <script src="./assets/js/mapapi.js"></script>
+    <script src="./assets/js/foodapi.js"></script>
+>>>>>>> main
   </head>
 
   <body>
@@ -23,11 +29,27 @@
 
 
 <div class="header">
+<<<<<<< HEAD
         <h1>DINE N' FLICK <a href="./index.html"> <i class="fas fa-utensils"></i></a></h1>
+=======
+        <h1>Dine 'N' Flick <a href="./index.html"> <i class="fas fa-beer"></i></a></h1>
+>>>>>>> 6625efdd594a3ffa468e39183c820eff013dbe83
         <div>
-          
-          <input style="text-align: center" type="text" placeholder="Zip Code" name="zipcode" required/>
+         
+          <input
+        style="text-align: center"
+        type="text"
+        placeholder="Please enter City, State, or Zipcode"
+        name="zipcode"
+        required
+        id = "zipcode-input"
+        maxlength=""
+        
+      />
+      <button id="zipcode-btn">click me</button>
         </div>
+        <i class="fas fa-film"></i>
+        <img src="beers.jpg" alt="">
 </div>
 
 <div class="row">
@@ -40,13 +62,21 @@
 
     <div class="right">
         <div id="map">
-            <script src="./assets/js/mapapi.js"></script>
-            <script
+        </div>
+        <script
             id="map"
             async
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqKb0jAe4nwYqJMSDz2QBgGQ5VwoKAUQ&callback=initMap"
-            ></script></div>
+            ></script>
     </div> 
+
+</div>  
+
+<section id="section-a">
+  <p>Created by an amazing team consisting of: Alice Waweru, Chase, Joshua Brannon, Nathan Nguyen, Raul Garcia, Ricky T, Sareybodd (Rey) Chhorn, Shane Le, with help from Frantz Felix and Brett Belka!
+      Thank you for using our site!</p>
+</section>
+
 </div>   
 
 <script>
