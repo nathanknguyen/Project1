@@ -1,6 +1,6 @@
 # Project1
 ## Title
-DINE & FLICK
+DINE N' CHUG
 
 ## Description: 
 For people that want to have a good drink before or after watching a movie, using their zip code and with the help of google maps they can find theaters around that area.
