@@ -1,5 +1,9 @@
 // All of the `createGreeting` functions are equivalent
-var createGreeting = function(message, name) {
+function createGreeting(message, name) {
+  return message + ", " + name + "!";
+}
+
+var createGreeting = function (message, name) {
   return message + ", " + name + "!";
 };
 
@@ -12,7 +16,7 @@ var createGreeting = (message, name) => {
 var createGreeting = (message, name) => message + ", " + name + "!";
 
 // If an arrow function only has one parameter, we can omit the parens () around the single parameter
-var greet = greeting => console.log(greeting);
+var greet = (greeting) => console.log(greeting);
 
 // We call arrow functions the same way as we call regular functions
 var greeting = createGreeting("Hello", "Angie");
