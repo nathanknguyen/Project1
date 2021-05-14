@@ -28,11 +28,8 @@ Then I am presented with all reviews of the theater or restaurant.
 
 
 
-## Demo (pics) 
-
-
-
-
+## Deployed Website
+https://nathanknguyen.github.io/Project1/results.html
 
 
 ## Technologies Used
